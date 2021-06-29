@@ -1,0 +1,29 @@
+{
+    "name": "matt0liveira/composer-github",
+    "description": "Conhecendo o composer",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matheus Oliveira",
+            "email": "matheus4004.mo33@gmail.com",
+            "role": "Desenvolvedor",
+            "homepage": "https://github.com/matt0liveira"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "lib/"
+        },
+        "files":[
+            "lib/config.php"
+        ]
+    },
+    "require":{
+        "php": ">=7.0.0",
+        "phpmailer/phpmailer": "^6.5"
+    }
+}
